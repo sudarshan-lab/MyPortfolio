@@ -1,0 +1,75 @@
+/* Navbar.css */
+
+.ks-logo {
+    width: 50px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjusted to remove top and bottom padding */
+    background-color: #e8ecef; /* Matching the background color initially */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.fixed-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .ml-auto {
+    margin-left: auto; /* This will push the icons to the right end */
+}
+
+.navbar a {
+    color: #333; /* Text color for navbar links */
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    margin-right: 20px; /* Adjust margin between navbar links */
+}
+
+.navbar .nav-right {
+    display: flex;
+}
+
+.navbar .nav-right i {
+    margin-left: 10px;
+    color: #333; /* navbar icon color */
+}
+
+.navbar .nav-link {
+    color: #333;
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    margin-right: 20px;
+    position: relative;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover::after,
+.navbar .nav-link.active::after {
+    width: 100%;
+    left: 0;
+    background-color: black; /* Adjust color for active link */
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+
+
