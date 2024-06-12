@@ -1,0 +1,49 @@
+.timeline {
+    position: relative;
+    font-size: 25px;
+    line-height: 1.6;
+    font-family: "Gill Sans", sans-serif;
+    color: #666;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Set direction to column */
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    transform: translateX(-50%); /* Center the line horizontally */
+  }
+  
+  .timeline-item {
+    position: relative;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items in alternate position */
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px; /* Adjust distance from timeline */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  
+  
+  .timeline-content {
+    position: relative;
+    margin-left: 20px;
+    max-width: 70%; /* Adjust max-width as needed */
+  }
+  

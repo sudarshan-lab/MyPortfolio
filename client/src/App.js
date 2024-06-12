@@ -23,9 +23,9 @@ const App = () => {
           <Projects />
           <Skills />
           <Education />
-          <Contact />
           <Resume />
-          {/* Add other sections if needed */}
+          <Contact />
+
         </div>
       </div>
     </Router>

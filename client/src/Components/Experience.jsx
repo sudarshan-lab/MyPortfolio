@@ -1,11 +1,11 @@
 import React from 'react';
 import '../CSS/Experience.css';
-import experience from '../Assets/experience.jpg';
+import experience from '../Assets/experience.png'; // Ensure this image has a transparent background
 
 const Experience = () => {
   return (
     <section id="experience" className="experience">
-      <h1 className='tex'>My Professional Experience</h1>
+      <h1 className="tex">My Professional Experience</h1>
       <p>I worked as an Associate Software Engineer in Micron Technologies for 2 years.</p>
       <br />
       <div className="content">
@@ -30,6 +30,7 @@ const Experience = () => {
           <img src={experience} alt="Experience" className="experience-image" />
         </div>
       </div>
+      <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
     </section>
   );
 };

@@ -1,87 +1,87 @@
 .experience {
-  padding: 50px 30px; /* Increased padding for better spacing */
-  font-family: "Gill Sans", sans-serif;
-   /* Light background color for contrast */
-}
-
-.content {
-  display: flex;
-  gap: 20px; /* Added gap between left and right content */
-}
-
-.left {
-  flex: 2;
-  background-color: white;
-  padding: 30px; /* Increased padding for more white space inside the card */
-  border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);  /* Increased shadow for better visibility */
-}
-
-.right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.experience-image {
-  max-width: 100%;
-  height: auto;
+    padding: 50px 30px; /* Increased padding for better spacing */
+    font-family: "Gill Sans", sans-serif;
+    
+  }
   
-}
-
-.section {
-  margin-bottom: 30px;
-}
-
-.job h2,
-.project h2 {
-  margin-top: 20px;
-  font-size: 28px; /* Increased font size */
-  color: #333; /* Darker color for headings */
-}
-
-.job h3 {
-  color: #666;
-  font-size: 20px; /* Adjusted font size */
-  margin-bottom: 10px; /* Added margin for spacing */
-}
-
-.job p,
-.project p {
-  margin-bottom: 10px;
-  font-size: 16px; /* Standard font size for paragraphs */
-  color: #666; /* Consistent color for text */
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px; /* Added padding for cleaner list look */
-}
-
-li {
-  color: #666;
-  margin-bottom: 10px; /* Added margin for spacing between items */
-  line-height: 1.6; /* Increased line height for readability */
-  text-align: left;
-  font-size: medium;
-  align-items: left;
-}
-
-.tex {
-  font-size: 40px; /* Increased font size */
-  font-weight: bolder; /* Make the text bold */
-  margin-bottom: 10px; /* Adjusted margin for better spacing */
-  line-height: 1.4;
-  font-family: "Gill Sans", sans-serif;
-  text-decoration: underline; /* Underline the text */
-}
-
-.experience p {
-  font-size: 25px; /* Adjust font size as needed */
-  line-height: 1.6;
-  font-family: "Gill Sans", sans-serif;
-  color: #666;
-  margin-bottom: 20px; /* Added margin for spacing */
-}
+  .content {
+    display: flex;
+    gap: 20px; /* Added gap between left and right content */
+  }
+  
+  .left {
+    flex: 2;
+    background-color: white;
+    padding: 30px; /* Increased padding for more white space inside the card */
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Increased shadow for better visibility */
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .experience-image {
+    max-width: 100%;
+    height: auto;
+    background: transparent; /* Ensure background is transparent */
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .job h2,
+  .project h2 {
+    margin-top: 20px;
+    font-size: 28px; /* Increased font size */
+    color: #333; /* Darker color for headings */
+  }
+  
+  .job h3 {
+    color: #666;
+    font-size: 20px; /* Adjusted font size */
+    margin-bottom: 10px; /* Added margin for spacing */
+  }
+  
+  .job p,
+  .project p {
+    margin-bottom: 10px;
+    font-size: 16px; /* Standard font size for paragraphs */
+    color: #666; /* Consistent color for text */
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px; /* Added padding for cleaner list look */
+  }
+  
+  li {
+    color: #666;
+    margin-bottom: 10px; /* Added margin for spacing between items */
+    line-height: 1.6; /* Increased line height for readability */
+    text-align: left;
+    font-size: medium;
+    align-items: left;
+  }
+  
+  .tex {
+    font-size: 40px; /* Increased font size */
+    font-weight: bolder; /* Make the text bold */
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    line-height: 1.4;
+    font-family: "Gill Sans", sans-serif;
+  }
+  
+  .experience p {
+    font-size: 25px; /* Adjust font size as needed */
+    line-height: 1.6;
+    font-family: "Gill Sans", sans-serif;
+    color: #666;
+    margin-bottom: 20px; /* Added margin for spacing */
+  }
+  

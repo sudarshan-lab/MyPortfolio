@@ -27,7 +27,7 @@ const CNavbar = () => {
       const sectionTop = section.offsetTop;
       const sectionBottom = sectionTop + section.offsetHeight;
       const scrollPosition = window.scrollY + 100; // Adjust for navbar height
-        console.log("TOP: "+sectionTop+" Bottom: "+sectionBottom);
+        
       if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
         currentSectionId = section.id;
       }
@@ -38,7 +38,7 @@ const CNavbar = () => {
 
 
   const handleSetActive = (event) => {
-    setActiveLink(event);
+    //setActiveLink(event);
   };
 
   useEffect(() => {
@@ -59,49 +59,49 @@ const CNavbar = () => {
             smooth={true} 
             duration={250} 
             className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} 
-            onClick={() => handleSetActive("home")}
+            
           >Home</ScrollLink>
           <ScrollLink 
             to="experience" 
             smooth={true} 
             duration={250} 
             className={`nav-link ${activeLink === 'experience' ? 'active' : ''}`} 
-            onClick={() => handleSetActive("experience")}
+            
           >Experience</ScrollLink>
          <ScrollLink 
             to="projects" 
             smooth={true} 
             duration={250} 
             className={`nav-link ${activeLink === 'projects' ? 'active' : ''}`} 
-            onClick={() => handleSetActive("projects")}
+            
           >Projects</ScrollLink>
           <ScrollLink 
             to="skills" 
             smooth={true} 
             duration={250} 
             className={`nav-link ${activeLink === 'skills' ? 'active' : ''}`} 
-            onClick={() => handleSetActive('skills')}
+            
           >Skills</ScrollLink>
           <ScrollLink 
             to="education" 
             smooth={true} 
             duration={250} 
             className={`nav-link ${activeLink === 'education' ? 'active' : ''}`} 
-            onClick={() => handleSetActive("education")}
+            
           >Education</ScrollLink>
           <ScrollLink 
             to="contact" 
             smooth={true} 
             duration={250} 
             className={`nav-link ${activeLink === 'contact' ? 'active' : ''}`} 
-            onClick={() => handleSetActive("contact")}
+            
           >Contact</ScrollLink>
           <ScrollLink 
             to="resume" 
             smooth={true} 
             duration={250} 
             className={`nav-link ${activeLink === 'resume' ? 'active' : ''}`} 
-            onClick={() => handleSetActive("resume")}
+            //onClick={() => handleSetActive("resume")}
           >Resume</ScrollLink>
         </Nav>
         <Nav className="ml-auto">

@@ -25,6 +25,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
     </section>
   );
 };

@@ -13,6 +13,7 @@
     padding: 10px 20px; /* Adjusted to remove top and bottom padding */
     background-color: #e8ecef; /* Matching the background color initially */
     transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .navbar.fixed-top {
